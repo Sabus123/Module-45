@@ -19,12 +19,13 @@ const router = createBrowserRouter([
     children:[
       {index:true, Component: Home},
       {path: 'mobiles', Component: Mobiles},
-      {path: 'laptops', Component: Laptops}
+      {path: 'laptops', Component: Laptops},
+      {path: 'about', Component: About}
     ],
   },
   {
     path: "About",
-    element: <div>About myself here....</div>
+    element: <div>About myself here.</div>
   },
   {
     path: "Blogs",
