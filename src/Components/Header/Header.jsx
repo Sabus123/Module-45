@@ -12,10 +12,11 @@ const Header = () => {
                 <a href="/laptops">Laptops</a>
                 <a href="/mobiles">Mobiles</a>
                 <a href=""></a> */}
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/laptops">Laptops</NavLink>
-              <NavLink to="/mobiles">Mobiles</NavLink>
-              <NavLink to="/">Home</NavLink>
+
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/laptops">Laptops</NavLink>
+                <NavLink to="/mobiles">Mobiles</NavLink>
+                <NavLink to="/">Home</NavLink>
             </nav>
         </div>
     );
