@@ -1,10 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 // import { useLoaderData } from 'react-router';
 
 const Post = ({post}) => {
 
     const {id, title} = post;
+    const navigate = useNavigate();
+
+    const navigateHandler = () =>{
+        navigate(`/posts/${id}`)
+    }
     
     return (
         <div style={{border:'2px solid green'}}>
@@ -12,6 +17,7 @@ const Post = ({post}) => {
             <Link to={`/posts/${id}`}>
             <button>Show Detailse</button>
             </Link>
+            <button onClick={navigateHandler}>Details of: {id}</button>
         </div>
     );
 };

@@ -14,7 +14,7 @@ import Laptops from './Components/Laptops/Laptops.jsx';
 import Users from './Components/Users/Users.jsx';
 import Users2 from './Components/Users2/Users2.jsx';
 import UserDetailse from './Components/UserDetailse/UserDetailse.jsx';
-import Posts from './Components/Header/Posts/Posts.jsx';
+import Posts from './Components/Posts/Posts.jsx';
 import PostDetailse from './Components/PostDetailse/PostDetailse.jsx';
 
 
