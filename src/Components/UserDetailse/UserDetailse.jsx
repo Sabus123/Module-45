@@ -15,8 +15,8 @@ const UserDetailse = () => {
     return (
         <div>
             <h3>User Details here</h3>
-            <h5>Name: {name}</h5>
-            <p>Website: {website}</p>
+            <h5>Name:{name}</h5>
+            <p>Website:{website}</p>
         </div>
     );
 };
